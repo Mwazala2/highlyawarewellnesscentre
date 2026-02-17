@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Highly Aware Wellness Centre</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#3a5a40",
+                        "primary-dark": "#1a2e22",
+                        "sage-light": "#f1f4f2", 
+                        "sage-text": "#3a5a40",
+                        "warm-white": "#fcfbf9",
+                        "warm-grey": "#e8e6e1",
+                        "text-main": "#2c3e34",
+                        "text-muted": "#6b7c70",
+                    },
+                    fontFamily: {
+                        "display": ["Playfair Display", "serif"],
+                        "sans": ["Inter", "sans-serif"],
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            min-height: max(884px, 100dvh);
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-warm-white text-text-main font-sans antialiased selection:bg-primary/20">
+<div class="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden max-w-[480px] mx-auto bg-warm-white shadow-xl">
+<header class="flex items-center justify-between px-6 py-5 sticky top-0 z-50 bg-warm-white/95 backdrop-blur-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[24px]">spa</span>
+<span class="text-primary-dark font-display font-semibold text-lg tracking-tight">Highly Aware</span>
+</div>
+<button class="text-primary-dark hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[28px]">menu</span>
+</button>
+</header>
+<main class="flex-1 pb-10">
+<div class="px-6 pt-12 pb-10 flex flex-col items-start gap-6">
+<div class="inline-flex items-center gap-1.5 rounded-full bg-sage-light px-3 py-1 text-xs font-medium text-primary-dark border border-sage-text/10">
+<span class="material-symbols-outlined text-[14px]">location_on</span>
+                    Kiambu, Kenya
+                </div>
+<h1 class="font-display text-[2.5rem] leading-[1.15] font-medium text-primary-dark">
+                    Feeling overwhelmed? <span class="italic text-primary/80">Rediscover balance</span> right here in Kiambu.
+                </h1>
+<p class="text-text-muted text-base leading-relaxed font-light max-w-[90%]">
+                    You’ve built a life of achievement, but somewhere along the way, the quiet moments stopped bringing peace. We help you find your way back to yourself.
+                </p>
+<div class="flex flex-col w-full gap-3 pt-4">
+<button class="w-full rounded-xl bg-primary px-6 py-4 text-base font-medium text-white shadow-sm transition-all active:scale-[0.99] hover:bg-primary-dark">
+                        Begin Your Journey
+                    </button>
+<button class="w-full flex items-center justify-center gap-2 rounded-xl border border-warm-grey px-6 py-4 text-base font-medium text-primary-dark hover:bg-sage-light transition-colors">
+                        Explore Services
+                    </button>
+</div>
+</div>
+<div class="mx-6 p-8 bg-white border border-warm-grey rounded-2xl shadow-sm mb-12 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-32 h-32 bg-sage-light rounded-full mix-blend-multiply filter blur-3xl opacity-50 -translate-y-1/2 translate-x-1/3"></div>
+<h2 class="font-display text-2xl text-primary-dark mb-6 relative z-10">You might be feeling...</h2>
+<ul class="flex flex-col gap-4 relative z-10">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-0.5 text-[20px]">check_circle</span>
+<span class="text-text-main text-sm font-medium leading-snug">Exhausted even after a full night's sleep.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-0.5 text-[20px]">check_circle</span>
+<span class="text-text-main text-sm font-medium leading-snug">Disconnected from the things that used to bring joy.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-0.5 text-[20px]">check_circle</span>
+<span class="text-text-main text-sm font-medium leading-snug">Anxious about the future despite current stability.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-0.5 text-[20px]">check_circle</span>
+<span class="text-text-main text-sm font-medium leading-snug">A constant need to be "on" without a pause button.</span>
+</li>
+</ul>
+</div>
+<div class="px-6 pb-12">
+<div class="flex flex-col gap-4">
+<span class="text-xs font-bold tracking-widest uppercase text-primary/60">Our Approach</span>
+<h3 class="font-display text-xl text-primary-dark leading-snug">
+                        A sanctuary for your mind.
+                    </h3>
+<p class="text-text-muted text-sm leading-7">
+                        At Highly Aware Wellness Centre, we don't just treat symptoms. We create a space for holistic healing. Combining modern therapy with timeless wellness practices, we offer a private retreat in Kiambu designed to help you reconnect.
+                    </p>
+<a class="inline-flex items-center text-sm font-semibold text-primary hover:text-primary-dark transition-colors mt-2" href="#">
+                        Learn more about us
+                        <span class="material-symbols-outlined text-[16px] ml-1">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="bg-sage-light/50 px-6 py-10 mt-4 border-t border-warm-grey">
+<div class="flex flex-col items-center text-center gap-4">
+<p class="font-display text-lg text-primary-dark italic">
+                        "The most peaceful hour of my week."
+                    </p>
+<div class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1">star</span>
+<span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1">star</span>
+<span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1">star</span>
+<span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1">star</span>
+<span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1">star</span>
+</div>
+<div class="flex items-center justify-center gap-2 opacity-80">
+<img alt="Google G Logo" class="w-4 h-4 opacity-70" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBuMhAqTYoSmdkYapGYrFyEjG5vC49SaZp_tgENUDyfv8-1t-SQzM9YzM0CiCUa9pjXC8PhizLUQ1YsFP0vsoa0XWD0dQjkPcFfb6PxCJN_EAwp-AE8xZgcUEK-wwFPySnyGZSgWRf0sGMQKCOtBipwX06dHyucBDV7w8zHfJKjRz0fU06s8IIRzyH0fBQeTuYo-liaKCo-VDzo7RTSQUOlMOt7Ez_baSEF-uUmu5xALc_RfxEklw8_vJmVlLzr9K11mIyhdXZeuEs"/>
+<p class="text-xs text-text-muted">5.0 Rating based on 25+ reviews</p>
+</div>
+</div>
+<div class="mt-10 pt-8 border-t border-black/5 flex flex-col gap-6 text-center">
+<div class="flex flex-col gap-1">
+<h4 class="font-display text-primary-dark font-medium">Highly Aware Wellness Centre</h4>
+<p class="text-xs text-text-muted">Kiambu, Kenya</p>
+</div>
+<div class="flex justify-center gap-6">
+<a class="text-xs font-medium text-text-main hover:text-primary" href="#">Home</a>
+<a class="text-xs font-medium text-text-main hover:text-primary" href="#">About</a>
+<a class="text-xs font-medium text-text-main hover:text-primary" href="#">Services</a>
+<a class="text-xs font-medium text-text-main hover:text-primary" href="#">Contact</a>
+</div>
+</div>
+</div>
+</main>
+<nav class="fixed bottom-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-t border-warm-grey pb-safe pt-3 max-w-[480px] mx-auto">
+<div class="flex justify-around items-center px-4 pb-2">
+<a class="text-xs font-medium text-primary px-3 py-2 rounded-lg bg-sage-light/50" href="#">Home</a>
+<a class="text-xs font-medium text-text-muted hover:text-primary px-3 py-2 transition-colors" href="#">About</a>
+<a class="text-xs font-medium text-text-muted hover:text-primary px-3 py-2 transition-colors" href="#">Services</a>
+<a class="text-xs font-medium text-text-muted hover:text-primary px-3 py-2 transition-colors" href="#">Contact</a>
+</div>
+<div class="h-4 w-full"></div>
+</nav>
+</div>
+
+</body></html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Meet Your Lead Counselor | Mr. Gilead Mwazala</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#426043",
+                        "primary-content": "#ffffff",
+                        "background-light": "#fcfbf9",
+                        "background-dark": "#162111",
+                        "surface-light": "#ffffff",
+                        "surface-dark": "#1f2b1a",
+                        "text-main-light": "#1a1d1a",
+                        "text-main-dark": "#e8ebe6",
+                        "text-sub-light": "#6b8067",
+                        "text-sub-dark": "#a3bca0",
+                    },
+                    fontFamily: {
+                        "sans": ["Inter", "sans-serif"],
+                        "serif": ["Playfair Display", "serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "2xl": "1rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+        ::-webkit-scrollbar {
+            width: 4px;
+        }
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        ::-webkit-scrollbar-thumb {
+            background-color: rgba(66, 96, 67, 0.2);
+            border-radius: 20px;
+        }
+        body {
+            min-height: max(884px, 100dvh);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark text-text-main-light dark:text-text-main-dark flex justify-center min-h-screen">
+<div class="w-full max-w-md bg-background-light dark:bg-background-dark relative flex flex-col min-h-screen shadow-xl overflow-hidden font-sans">
+<header class="flex items-center justify-between px-6 pt-6 pb-2 bg-transparent z-20">
+<button class="p-2 -ml-2 rounded-full hover:bg-primary/10 transition-colors text-text-main-light dark:text-text-main-dark">
+<span class="material-symbols-outlined text-[20px]">arrow_back</span>
+</button>
+<span class="text-xs font-medium tracking-widest uppercase text-text-sub-light dark:text-text-sub-dark">Highly Aware</span>
+<button class="p-2 -mr-2 rounded-full hover:bg-primary/10 transition-colors text-text-main-light dark:text-text-main-dark">
+<span class="material-symbols-outlined text-[20px]">menu</span>
+</button>
+</header>
+<main class="flex-1 flex flex-col items-center justify-center px-8 pb-24 text-center">
+<div class="mb-8">
+<p class="font-serif italic text-lg leading-relaxed text-text-sub-light dark:text-text-sub-dark">
+                    "Fostering inner harmony through mindful and empowering practices."
+                </p>
+<div class="w-8 h-px bg-primary/40 mx-auto mt-6"></div>
+</div>
+<div class="relative mb-8">
+<div class="w-24 h-24 rounded-full overflow-hidden border-2 border-primary/20 shadow-md mx-auto relative z-10">
+<img alt="Mr. Gilead Mwazala" class="w-full h-full object-cover" data-alt="A small professional portrait of the male counselor" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDl1XKm3u_fqqFYD2diZ2Qbev50gWaaykL5kYZvyFjZU3q-BvIAx9GIEWYOQt1SMgZOOJRTBKOSCvjLgvYENsLMfidHaiohU5qvMdm7ElCnMNRvcIcUVV-h0NDcA_AWh_0e_iRontDBxj_SbGqmQBDH2YqRk6UL9umiHeKgaCLWW9i3cuWqPpW5BJCnOy9yj3nVefpOTeNm0DCy2F3RP2Go5c7y7bInPzWO8_ZHobs3eNpg2e0F_9E5VDacS-UeckUGRG369-yomkI"/>
+</div>
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 bg-primary/5 rounded-full blur-xl -z-0"></div>
+</div>
+<div class="mb-8">
+<h1 class="font-serif text-3xl font-bold text-text-main-light dark:text-text-main-dark mb-2">
+                    Mr. Gilead Mwazala
+                </h1>
+<p class="text-xs font-medium uppercase tracking-widest text-primary">
+                    Psychologist/Founder
+                </p>
+</div>
+<div class="prose prose-sm dark:prose-invert text-text-main-light/80 dark:text-text-main-dark/80 max-w-xs mx-auto">
+<p class="mb-4 leading-7">
+                    I am dedicated to guiding you toward a life of presence and purpose. True well-being is found when we align our mental clarity with our inner resilience.
+                </p>
+<p class="leading-7">
+                    Through a holistic and mindful approach, I offer a compassionate space to explore your journey, helping you cultivate the self-awareness needed for lasting positive change.
+                </p>
+</div>
+<div class="mt-8 opacity-60">
+<span class="material-symbols-outlined text-primary text-2xl">spa</span>
+</div>
+</main>
+<footer class="absolute bottom-0 w-full p-6 text-center border-t border-primary/10 bg-surface-light/50 dark:bg-surface-dark/50 backdrop-blur-sm">
+<div class="flex flex-col items-center gap-2">
+<button class="bg-primary text-white font-medium py-3 px-8 rounded-full shadow-lg shadow-primary/20 hover:scale-105 transition-transform w-full max-w-[220px] mb-4">
+                    Start Your Growth Journey
+                </button>
+<div class="flex items-center gap-1.5 text-xs text-text-sub-light dark:text-text-sub-dark opacity-80">
+<span class="material-symbols-outlined text-[14px]">location_on</span>
+<span>Highly Aware Centre, Kiambu, Kenya</span>
+</div>
+</div>
+</footer>
+</div>
+
+</body></html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Location &amp; Contact - Highly Aware Wellness Centre</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&amp;family=Inter:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#197fe6",
+                        "warm-white": "#fdfdfc",
+                        "soft-blue": "#e8f1f8",
+                        "text-main": "#2c3e50",
+                        "text-muted": "#64748b",
+                        "background-dark": "#111921",
+                    },
+                    fontFamily: {
+                        "sans": ["Inter", "sans-serif"],
+                        "serif": ["Playfair Display", "serif"],
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "2xl": "1rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Playfair Display', serif;
+        }.no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+<style>
+        body {
+            min-height: max(884px, 100dvh);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-warm-white dark:bg-background-dark text-text-main dark:text-gray-100 antialiased min-h-screen flex flex-col items-center">
+<header class="w-full max-w-md sticky top-0 z-20 flex items-center justify-center bg-warm-white/95 dark:bg-background-dark/95 px-4 py-6 backdrop-blur-sm">
+<h1 class="text-2xl font-serif text-text-main dark:text-white tracking-wide">Highly Aware</h1>
+</header>
+<main class="w-full max-w-md flex-1 overflow-y-auto no-scrollbar pb-32 px-6 flex flex-col items-center text-center">
+<div class="mb-10 mt-2">
+<h2 class="text-4xl font-serif text-slate-800 dark:text-white mb-3">Location &amp;<br/>Contact</h2>
+<p class="text-text-muted dark:text-slate-400 font-light text-sm max-w-[280px] mx-auto leading-relaxed">
+                A sanctuary for wellness in the heart of Kiambu. Find your path to calm.
+            </p>
+</div>
+<div class="w-full aspect-[4/3] rounded-2xl overflow-hidden shadow-sm border border-slate-100 dark:border-slate-800 relative mb-12 group">
+<div class="absolute inset-0 bg-cover bg-center grayscale-[30%] opacity-90 transition-opacity group-hover:opacity-100" data-alt="Minimalist map view of Kiambu streets" data-location="Kiambu, Kenya" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBul4oZbfgrL0wpBE8Zwnv4rsg0wk9MFtvENFf4rmeOE5Ysjl6n3D1LGO_2Yp-KksyyuCaodXGZyNLhRKtHIIIfFPGwOM_2bqIX3PbjfB3NFYB9sdJsfMRDW2hUuKpya2VUu_5Zry58qIEAmw6OctkpkBZhAww73RQ52aBsWIeZaz7d_mexFVT6XiDWirEL8bWMyPAMQRlFeZrLuLNtf4JAyyaBZ73e2Ez8dVywrRGV_2tCegOFf1ezDiWarWg2zS-C1XljXnazvyI');">
+<div class="absolute inset-0 bg-indigo-900/10 mix-blend-overlay"></div>
+</div>
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center">
+<div class="h-4 w-4 rounded-full bg-slate-800 dark:bg-white ring-4 ring-white/50 dark:ring-slate-900/50 animate-pulse"></div>
+</div>
+<div class="absolute bottom-4 left-0 right-0 text-center pointer-events-none">
+<span class="inline-block bg-white/90 dark:bg-black/80 backdrop-blur px-3 py-1 rounded-full text-xs font-medium text-slate-700 dark:text-slate-200 shadow-sm">
+                    Tap to view map
+                </span>
+</div>
+</div>
+<section class="mb-12 w-full">
+<div class="flex flex-col items-center gap-2 mb-6">
+<span class="material-symbols-outlined text-slate-400 text-3xl font-light">location_on</span>
+<h3 class="text-2xl font-serif text-slate-900 dark:text-white">Find Us</h3>
+</div>
+<div class="space-y-2 font-light text-slate-600 dark:text-slate-300">
+<p class="text-lg font-medium text-slate-800 dark:text-white">Bishop Njenga Complex</p>
+<p>2nd Floor (Opposite Cooperative Bank)</p>
+<p>Kiambu, Kenya</p>
+</div>
+</section>
+<div class="w-12 h-px bg-slate-200 dark:bg-slate-800 mb-12"></div>
+<section class="mb-8 w-full">
+<div class="flex flex-col items-center gap-2 mb-6">
+<span class="material-symbols-outlined text-slate-400 text-3xl font-light">schedule</span>
+<h3 class="text-2xl font-serif text-slate-900 dark:text-white">Visit Us</h3>
+</div>
+<div class="bg-slate-50 dark:bg-slate-800/50 rounded-2xl p-6 w-full max-w-sm mx-auto">
+<div class="flex justify-between items-center mb-4 pb-4 border-b border-slate-200 dark:border-slate-700">
+<span class="text-sm text-slate-500 dark:text-slate-400">Status</span>
+<span class="inline-flex items-center gap-1.5 text-sm text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-900/20 px-2 py-1 rounded-md">
+<span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span>
+                        Open Today
+                    </span>
+</div>
+<div class="space-y-3 text-sm">
+<div class="flex justify-between">
+<span class="text-slate-900 dark:text-white font-medium">Monday - Saturday</span>
+<span class="text-slate-600 dark:text-slate-400">Until 6:00 PM</span>
+</div>
+<div class="flex justify-between opacity-60">
+<span class="text-slate-900 dark:text-white font-medium">Sunday</span>
+<span class="text-slate-600 dark:text-slate-400">Closed</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<div class="fixed bottom-0 left-0 right-0 z-30 p-6 bg-gradient-to-t from-white via-white/95 to-transparent dark:from-background-dark dark:via-background-dark/95 flex justify-center">
+<a class="flex items-center gap-3 bg-slate-900 dark:bg-white text-white dark:text-slate-900 px-8 py-4 rounded-full shadow-xl hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 group w-full max-w-sm justify-center" href="tel:0703149876">
+<span class="material-symbols-outlined text-xl group-hover:rotate-12 transition-transform">call</span>
+<span class="font-medium text-sm tracking-wide">Call Us at Bishop Njenga Complex</span>
+</a>
+</div>
+
+</body></html>
